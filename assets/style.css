@@ -1,0 +1,284 @@
+body{
+color: #777777;
+background-image: url(../images/seamless_paper_texture.png);
+font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+header{
+    height: 65px;
+    background-color: #fff;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+}
+
+
+
+.clearfix {
+    overflow: hidden;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bio-name{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 25px;
+}
+
+.top-buttons{
+    float: right;
+
+}
+
+.about{
+float: left;
+padding: 25px 20px 25px 20px;
+
+}
+
+.portfolio{
+    float: left;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    padding: 0 20px 0 20px;
+    margin: 25px 0 25px 0;
+}
+
+.contact{
+    float: left;
+    padding: 25px 20px 25px 20px;
+}
+
+.bio{
+    color: #4aaaa5;
+    width: 100%;
+    text-align: left;
+    padding: 30px 0 25px 0;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    float: left;
+    margin: 0 0 20px 0;
+}
+
+.profile-img {
+    height: 125px;
+    width: 160px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+p {
+    float: left;
+    line-height: 1.5;
+    margin: 5px 0 25px 0;
+
+}
+
+
+.introduction {
+    margin: 30px 0 0 0;
+    padding: 0 30px 0 30px;
+    background-color: #fff;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+form {
+    line-height: 1.5;
+
+}
+
+input {
+    width: 100%;
+}
+
+.message {
+height: 200px;
+}
+
+button {
+    width: 115px;
+    height: 40px;
+    color: #fff;
+    background-color: #4aaaa5;
+    margin: 20px 0 30px 0;
+    border: 0;
+}
+
+figure {
+    width: 160px;
+    height: 120px;
+    position: relative;
+}
+
+.small-img{
+    height: 125px;
+    width: 160px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.img-2, .img-4 {
+    float: left;
+    left: -15px;
+}
+
+.img-2{
+    top: -23px;
+}
+
+.portfolio-images{
+    width: 550px;
+    margin: 0 auto;
+}
+
+.bio-name-portfolio{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 25px 14px 25px 14px;
+}
+
+footer {
+    border: 5px 0 0 0;
+    border-style: solid;
+    border-color: #4aaaa5;
+}
+
+.copyright{
+    color: #c9c9c1;
+    margin: 20px 0 0 0;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    padding: 50px 0 0 0;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #4aaaa5;
+}
+
+
+@media screen and (max-width: 980px) {
+    .content{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .bio-name{
+        margin-left: 15px;
+    }
+
+    .small-content {
+        width: 55%;
+        float: left;
+        margin: 0 200px 0 30px;
+    }
+
+    figure{
+        width: 90%;
+        height: auto;
+        position: static;
+        float: left;
+    }
+
+    .small-img {
+        width: 100%;
+        height: auto;
+        clear: both;
+        margin-bottom: 5px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .bio-name{
+        margin-left: 15px;
+}
+
+    .small-content{
+        width:90%;
+}
+}
+
+@media screen and (max-width: 640px){
+    .content {
+        width: 100%;
+    }
+
+    .profile-img{
+        width: 90%;
+        height: auto;
+        clear: both;
+        padding: 0 15px 10px 10px;
+    }
+
+    header{
+        height: 130px;
+    }
+
+    .bio-name{
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 0 25px 0;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .bio-name-portfolio{
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 0 25px 0;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .top-buttons{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .about, .portfolio, .contact{
+        width: 33%;
+        height: 50%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .small-content {
+        width: 90%;
+    }
+
+}
